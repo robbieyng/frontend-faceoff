@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>New Tenant Checklist</title>
     <link rel="stylesheet" href="styles.css" />
     <script defer src="index.js"></script>
-</head>
-<body>
+  </head>
+
+  <body>
     <header>
-        <div class="toolbar-wrapper">
-            <div>
-                <label for="property">Property Name: </label>
-                <input id="property" />
-            </div>
-            <div class="toolbar-buttons-wrapper">
-                <div id="reset-btn" class="toolbar-button">Reset</div>
-                <div id="print-btn" class="toolbar-button">Print</div>
-            </div>
+      <div class="toolbar-wrapper">
+        <div>
+          <label for="property">Property Name: </label>
+          <input id="property" />
         </div>
-        <h1>New Tenant Checklist</h1>
+        <div class="toolbar-buttons-wrapper">
+          <div id="reset-btn" class="toolbar-button">Reset</div>
+          <div id="print-btn" class="toolbar-button">Print</div>
+        </div>
+      </div>
+      <h1>New Tenant Checklist</h1>
     </header>
     <div class="content-wrapper">
-        <div class="table-wrapper">
-            <div class="table-header">
-                <div>Completed</div>
-                <div>Date</div>
-                <div>Task</div>
-            </div>
-            <div id="rows-wrapper"></div>
+      <div class="table-wrapper">
+        <div class="table-header">
+          <div>Completed</div>
+          <div>Date</div>
+          <div>Task</div>
         </div>
-</body>
+        <div id="rows-wrapper"></div>
+      </div>
+    </div>
+  </body>
 </html>
