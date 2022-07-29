@@ -3,7 +3,7 @@ Checklist app written in:
 ✅ Vanilla  
 ✅ React  
 ✅ Vue  
-⬜ Svelte  
+✅ Svelte  
 ⬜ Solid
 
 ![screenshot](screenshot.png)
