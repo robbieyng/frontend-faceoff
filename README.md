@@ -4,6 +4,6 @@ Checklist app written in:
 ✅ React  
 ✅ Vue  
 ✅ Svelte  
-⬜ Solid
+✅ Solid
 
 ![screenshot](screenshot.png)

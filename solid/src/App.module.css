@@ -1,0 +1,85 @@
+.toolbarWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toolbarButtonsWrapper {
+  display: flex;
+}
+
+@media print {
+  .toolbarButtonsWrapper {
+    display: none;
+  }
+}
+
+.toolbarButton {
+  padding: 5px;
+  background-color: #fff;
+  border: #fff solid 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  box-shadow: 1px 2px var(--dark-gray);
+}
+
+.toolbarButton:hover {
+  background-color: var(--light-gray);
+  border: var(--dark-gray) solid 1px;
+  box-shadow: none;
+}
+
+.toolbarButton:first-child {
+  margin-right: 5px;
+}
+
+header > h1 {
+  text-align: center;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+.contentWrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.tableWrapper {
+  max-width: 90%;
+}
+
+@media (min-width: 600px) {
+  .tableWrapper {
+    max-width: 50%;
+  }
+}
+
+.tableHeader {
+  display: grid;
+  grid-template-columns: 1fr 2fr 4fr;
+  gap: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.tableRow {
+  display: grid;
+  grid-template-columns: 1fr 2fr 4fr;
+  gap: 5px;
+  min-height: 40px;
+  margin-bottom: 5px;
+}
+
+.tableRow > div {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.tableRow > div:nth-child(3) {
+  justify-content: left;
+}
